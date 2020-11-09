@@ -1,0 +1,19 @@
+body {
+  background-color: #34495e;
+  letter-spacing: 0.2em;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.icon img {
+  background-color: white;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+#city {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}

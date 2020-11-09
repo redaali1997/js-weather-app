@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center text-light text-secondary my-4 text-uppercase">Weather App</h1>
+        <form>
+            <div class="form-group">
+                <label for="city" class="text-center text-light d-block">Enter the location</label>
+                <input type="text" class="form-control text-white" id="city" autocomplete="off">
+            </div>
+        </form>
+
+        <div class="card shadow-lg mb-5 d-none">
+            <img class="time card-img-top" src="https://via.placeholder.com/400x300" alt="">
+            <div class="icon text-center">
+                <img class="shadow-lg">
+            </div>
+            <div class="weather card-body text-center text-secondary">
+                <h4 class="card-title">City Name</h4>
+                <p class="card-text">Weather Condition</p>
+                <div class="display-4">
+                    <span>TEMP</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
